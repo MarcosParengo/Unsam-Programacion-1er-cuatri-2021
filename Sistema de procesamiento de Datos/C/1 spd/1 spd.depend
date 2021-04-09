@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1616190427 source:c:\users\marco\documents\repos\sistema de procesamiento de datos\c\1 spd\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

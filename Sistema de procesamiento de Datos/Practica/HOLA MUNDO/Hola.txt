@@ -1,0 +1,3 @@
+TASM hola.asm
+tplink hola.obj
+hola.exe

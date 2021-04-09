@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1617820468 source:c:\users\marco\documents\repos\sistema de procesamiento de datos\c\ej4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
