@@ -4,6 +4,8 @@
 
 int main()
 {
+    int resultado[20];
+    int resto;
     int aux;
     int flag=0;
     int i=0;
@@ -11,12 +13,19 @@ int main()
     printf("Ingrese un entero: ");
     scanf("%i", &numero);
     aux=numero;
-	do{
-        i++;
-        printf("%i resto",(aux%2));
-        if(i==10){
-            flag=1;
+	while(flag==0){
+        resto=aux%2;
+        resultado[i]=resto;
+        aux=aux/2;
+        if(aux==0){
+                flag=1;
         }
-	}while(flag==0);
+        i=i+1;
+	}
+        i=i-1;
+    printf("Resultado: ");
+    for(;i>=0;i--){
+        printf("%i",resultado[i]);
+    }
     return 0;
 }
