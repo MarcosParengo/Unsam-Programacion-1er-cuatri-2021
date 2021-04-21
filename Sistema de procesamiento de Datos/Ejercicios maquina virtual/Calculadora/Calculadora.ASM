@@ -8,11 +8,14 @@
   ingresonumero1 db 0dh,0ah,"Ingrese el primer numero de tres digitos para la operacion (Tenga en cuenta que si quiere ingresar 10 deberia ingresar 010)",0dh,0ah,24h
   ingresonumero2 db 0dh,0ah,"Ingrese el segundo numero de tres digitos para la operacion (Tenga en cuenta que si quiere ingresar 10 deberia ingresar 010)",0dh,0ah,24h
   error db 0dh,0ah,"La opcion introducida no es valida, vuelva a intentarlo",0dh,0ah,24h
+  resultado1 db 0dh,0ah,"El resultado de su operacion (",24h
+  resultado2 db ") es: ",24h
   salto db 0dh,0ah
 
   operacion db 2 dup (24h)
-  numero1 db "000",0dh,0ah,24h
-  numero2 db "000",0dh,0ah,24h
+  numero1 db "000",24h
+  numero2 db "000",24h 
+  resultado db "000",24h
 
 .code
      main proc
@@ -74,14 +77,7 @@ cargaNumero2:
         mov numero2[bx],al    ;guardo el ascii de la letra que viene en al dentro de la variable el la posicion bx
         inc bx    ;parecido a i++
         jmp cargaNumero2
-afuera: 
-        mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
-        mov dx, offset numero1  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
-        int 21h
-        mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
-        mov dx, offset numero2  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
-        int 21h
-AsciiToReg:
+afuera: ;asciitoreg
         mov cl,0
         mov dl,0
         mov dh,0
@@ -118,33 +114,79 @@ AsciiToReg:
         sub al,30h
         add dh,al
 ;Tengo en dl mi numero1 y en dh mi numero2
-        cmp operacion, 30h
+        xor cx,cx
+        xor ax,ax
+        cmp operacion, 31h
         je suma
         cmp operacion, 32h
         je resta
-        cmp operacion, 31h
+        cmp operacion, 33h
         je multiplicacion
         cmp operacion, 34h
         je division
 suma:
-        mov ah,dh
-        add dl,al
+        mov operacion[0],2bh
+        mov al,dl
+        add al,dh
+        jmp regToAscii
         ;en al tengo mi resultado;
-resta:
+resta: ;lista
+        mov operacion[0],2dh
         mov al,dl
         sub al,dh
+        jmp regToAscii
         ;en al tengo mi resultado;
-multiplicacion:
+multiplicacion:;lista
+        mov operacion[0],2ah
         mov al,dl
         mov cl,dh
         mul cl
+        jmp regToAscii
         ;en al tengo mi resultado;
-division:
+division:;lista
+        mov operacion[0],2fh
         xor ax,ax
         mov al,dl
         mov cl,dh
         div cl
+        jmp regToAscii
         ;en al tengo mi resultado;
+regToAscii:
+        ;el valor a convertir ya esta en al
+        mov ah,0
+        mov cl,100
+        div cl;ahora que dividi en ah tengo el resto y en al el resultado
+        add al,30h
+        mov resultado[0],al
+
+        mov al,ah
+        xor ah,ah
+        mov cl,10
+        div cl
+        add al,30h
+        mov resultado[1],al
+
+        add ah,30h
+        mov resultado[2],ah
+fin:
+        mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
+        mov dx, offset resultado1  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
+        int 21h  
+        mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
+        mov dx, offset numero1  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
+        int 21h  
+        mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
+        mov dx, offset operacion  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
+        int 21h  
+        mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
+        mov dx, offset numero2  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
+        int 21h  
+        mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
+        mov dx, offset resultado2  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
+        int 21h  
+        mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
+        mov dx, offset resultado  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
+        int 21h
 terminar:
         mov ax, 4c00h    ;LLAMO AL SERVICIO 4c00h DE LA INTERRUPCION 21:deseo terminar mi programa
         int 21h          ;TERMINAR LA EJECUCION
