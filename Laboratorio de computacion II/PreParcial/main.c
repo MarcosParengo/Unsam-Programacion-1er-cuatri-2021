@@ -30,6 +30,7 @@ int main()
             do{
                 printf("Ingrese el grado del %i alumno de %i%c a%co (a o b, 0 para pasar al siguiente a%co)\n",alumno,anio+1,248,164,164);
                 scanf("%c",&input);
+                fflush(stdin);
             }while(input!='a' && input!='b' && input!='0');
             switch(input){
             case 'a':

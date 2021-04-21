@@ -17,6 +17,7 @@ int main()
     //Caracter de inicio debe ser mayor a caracter de fin
     int vueltasDeseadas=caracterDeInicio-caracterDeFin;
     int vuelta=vueltasDeseadas;
+
     for(;vuelta>=0;vuelta=vuelta-1){
         int vueltaImpresion=vuelta;
         for(;vueltaImpresion>=0;vueltaImpresion--){
