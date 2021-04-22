@@ -10,11 +10,14 @@
   error db 0dh,0ah,"La opcion introducida no es valida, vuelva a intentarlo",0dh,0ah,24h
   resultado1 db 0dh,0ah,"El resultado de su operacion (",24h
   resultado2 db ") es: ",24h
+  errorMePase db 0dh,0ah,"ERROR: Su resultado es mayor a 255, esta calculadora no es capaz de procesarlo",24h
+  errorDivision db 0dh,0ah,"ERROR: No puede dividir por 0",24h
   salto db 0dh,0ah
 
   operacion db 2 dup (24h)
   numero1 db "000",24h
   numero2 db "000",24h 
+  negativo db "-"
   resultado db "000",24h
 
 .code
@@ -128,12 +131,18 @@ suma:
         mov operacion[0],2bh
         mov al,dl
         add al,dh
+        jc mePase
         jmp regToAscii
         ;en al tengo mi resultado;
 resta: ;lista
         mov operacion[0],2dh
         mov al,dl
         sub al,dh
+        cmp al,0
+        jge regToAscii
+
+        mov bl,1;Flag
+        neg al
         jmp regToAscii
         ;en al tengo mi resultado;
 multiplicacion:;lista
@@ -141,10 +150,17 @@ multiplicacion:;lista
         mov al,dl
         mov cl,dh
         mul cl
+
+        cmp ah,0
+        jg mePase;el resultado de la operacion no entra en un byte
+
         jmp regToAscii
         ;en al tengo mi resultado;
 division:;lista
         mov operacion[0],2fh
+        cmp dh,0
+        je eDivision
+
         xor ax,ax
         mov al,dl
         mov cl,dh
@@ -168,6 +184,18 @@ regToAscii:
 
         add ah,30h
         mov resultado[2],ah
+        jmp fin
+eDivision:
+        mov ah, 9h
+        mov dx, offset errorDivision
+        int 21h  
+        jmp terminar        
+mePase:
+        mov ah, 9h
+        mov dx, offset errorMePase
+        int 21h  
+        jmp terminar
+
 fin:
         mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
         mov dx, offset resultado1  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
@@ -183,9 +211,18 @@ fin:
         int 21h  
         mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
         mov dx, offset resultado2  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
-        int 21h  
+        int 21h 
+
+        cmp bx,1
+        je impNeg
+
+        mov ah, 9h
+        mov dx, offset resultado
+        int 21h
+        jmp terminar
+impNeg:
         mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
-        mov dx, offset resultado  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
+        mov dx, offset negativo  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
         int 21h
 terminar:
         mov ax, 4c00h    ;LLAMO AL SERVICIO 4c00h DE LA INTERRUPCION 21:deseo terminar mi programa
