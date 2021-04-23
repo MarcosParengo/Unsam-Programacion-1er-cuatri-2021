@@ -5,8 +5,8 @@
 ;Jump out of range
   bienvenido db "Bienvenido a mi programa",0dh,0ah, 24h ;0dh retorno de carro,0ah bajada de linea,24h signo pesos
   menu db "Que operacion desea realizar (1.Suma 2.Resta 3.Multiplicacion 4.Division)?",0dh,0ah,24h
-  ingresonumero1 db 0dh,0ah,"Ingrese el primer numero de tres digitos para la operacion (Tenga en cuenta que si quiere ingresar 10 deberia ingresar 010)",0dh,0ah,24h
-  ingresonumero2 db 0dh,0ah,"Ingrese el segundo numero de tres digitos para la operacion (Tenga en cuenta que si quiere ingresar 10 deberia ingresar 010)",0dh,0ah,24h
+  ingresonumero1 db 0dh,0ah,"Ingrese el primer operando, menor a 255 ",0dh,0ah,24h
+  ingresonumero2 db 0dh,0ah,"Ingrese el segundo operando, menor a 255",0dh,0ah,24h
   error db 0dh,0ah,"La opcion introducida no es valida, vuelva a intentarlo",0dh,0ah,24h
   resultado1 db 0dh,0ah,"El resultado de su operacion (",24h
   resultado2 db ") es: ",24h
@@ -61,10 +61,30 @@ cargaNumero1:
         mov ah, 1   ;LLAMO AL SERVICIO 1 DE LA INTERRUPCION 21:LECTURA
         int 21h
         cmp al,0dh
-        je siguiente
+        je formatoNumero1
         mov numero1[bx],al    ;guardo el ascii de la letra que viene en al dentro de la variable el la posicion bx
         inc bx    ;parecido a i++
         jmp cargaNumero1
+formatoNumero1:
+        cmp bx,0
+        je opcionCorrecta;No ingreso un numero, puso enter
+        cmp bx,1
+        je unCaracterNum1
+        cmp bx,2
+        je dosCaracteresNum1
+unCaracterNum1:
+        mov al,numero1[0]
+        mov numero1[2],al
+        mov numero1[0],30h
+        jmp siguiente
+dosCaracteresNum1:
+        mov al,numero1[1]
+        mov numero1[2],al
+        mov numero1[1],30h
+        mov al,numero1[0]
+        mov numero1[1],al
+        mov numero1[0],30h
+        jmp siguiente
 siguiente:
         mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
         mov dx, offset ingresonumero2  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
@@ -76,10 +96,31 @@ cargaNumero2:
         mov ah, 1   ;LLAMO AL SERVICIO 1 DE LA INTERRUPCION 21:LECTURA
         int 21h
         cmp al,0dh
-        je afuera
+        je formatoNumero2
         mov numero2[bx],al    ;guardo el ascii de la letra que viene en al dentro de la variable el la posicion bx
         inc bx    ;parecido a i++
         jmp cargaNumero2
+formatoNumero2:
+        cmp bx,0
+        je siguiente
+        cmp bx,1
+        je unCaracterNum2
+        cmp bx,2
+        je dosCaracteresNum2
+unCaracterNum2:
+        mov al,numero2[0]
+        mov numero2[2],al
+        mov numero2[0],30h
+        jmp afuera
+dosCaracteresNum2:
+        mov al,numero2[1]
+        mov numero2[2],al
+        mov numero2[1],30h
+        mov al,numero2[0]
+        mov numero2[1],al
+        mov numero2[0],30h
+        jmp afuera
+
 afuera: ;asciitoreg
         mov cl,0
         mov dl,0
@@ -117,8 +158,10 @@ afuera: ;asciitoreg
         sub al,30h
         add dh,al
 ;Tengo en dl mi numero1 y en dh mi numero2
-        xor cx,cx
         xor ax,ax
+        xor cx,cx
+        xor bx,bx
+        clc
         cmp operacion, 31h
         je suma
         cmp operacion, 32h
@@ -212,7 +255,7 @@ fin:
         mov ah, 9h  ;LLAMO AL SERVICIO 9 DE LA INTERRUPCION 21:IMPRESION DE CADENAS
         mov dx, offset resultado2  ;QUIERO QUE IMPRIMAS A PARTIR DE ACA
         int 21h 
-
+        
         cmp bx,1
         je impNeg
 
