@@ -195,7 +195,7 @@ divi:
 	mov al, dh
 	cmp dl, 0
 	je NoDiv
-	div dl
+	idiv dl
 	mov dh, al
 	jmp regToAscii
 
