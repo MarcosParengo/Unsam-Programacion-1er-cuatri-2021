@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620077284 source:c:\users\marco\documents\repos\unsam-programacion-1er-cuatri-2021\laboratorio de computacion ii\parcial\parcial1-labo 2- marcos parengo\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -4,7 +4,7 @@
 
 int main()
 {
-    int anios=7;
+    int anios=8;
     float promedioMasAlto;
     char cursoPromedioMasAlto;
     int anioPromedioMasAlto;
