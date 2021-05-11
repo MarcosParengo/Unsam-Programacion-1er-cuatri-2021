@@ -11,6 +11,7 @@ void h(int *vector,int m);
 void i(int *vector,int m);
 void j(int *vector,int m);
 int k(int *vector,int m);
+int l(int *vector,int m);
 void ma(int *vector,int m);
 void n(int *vector,int m);
 int main()
@@ -18,10 +19,11 @@ int main()
     char opcion;
     int m=4;
     int vecesk;
+    int vecesl;
     int vector[m];
     while(opcion!=48){
         opcion=NULL;
-        printf("Que funcion desea realizar?(\"a\" hasta \"n\", 0 para salir\n)");
+        printf("Que funcion desea realizar?(\"a\" hasta \"n\", 0 para salir)\n");
         scanf("%c",&opcion);
         fflush(stdin);
         switch(opcion){
@@ -64,6 +66,14 @@ int main()
                 vecesk=k(vector,m);
                 if(vecesk!=0){
                     printf("Ha leido %d elementos hasta que encontro el numero\n",vecesk);
+                }else{
+                    printf("Se recorrio todo el array y no se encontro su numero, esperamos que lo encuentre\n");
+                }
+            break;
+            case 108:
+                vecesl=l(vector,m);
+                if(vecesl!=0){
+                    printf("El numero ingresado aparece %d vez/veces en el vector\n",vecesl);
                 }else{
                     printf("Se recorrio todo el array y no se encontro su numero, esperamos que lo encuentre\n");
                 }
@@ -187,6 +197,23 @@ int k(int *vector,int m){
         }
     }
     return 0;
+}
+int l(int *vector,int m){
+    int buscado=NULL;
+    int veces=0;
+    char flag=0;
+    int vuelta=0;
+    int i=0;
+    printf("Que numero desea buscar en el array?\n");
+    scanf("%d",&buscado);
+    fflush(stdin);
+    while(i<m){
+        if((*(vector+i))==buscado){
+            veces++;
+        }
+        i++;
+    }
+    return veces;
 }
 void ma(int *vector,int m){
     int p=0;
