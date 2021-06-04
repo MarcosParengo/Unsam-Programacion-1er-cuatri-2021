@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1464548957 source:c:\users\dell inspiron 13\desktop\libreria\lib\misfunciones.c
+	<stdio.h>
+
+1464548958 source:c:\users\profesores\desktop\libcb\lib\misfunciones.c
+	<stdio.h>
+
+1464549078 source:c:\users\profesores\desktop\libcb\lib\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"misfunciones.h"
+
+1464549000 c:\users\profesores\desktop\libcb\lib\misfunciones.h
+
+1464549078 source:c:\users\moni\documents\codigoc\libcb\lib\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"misfunciones.h"
+
+1464549000 c:\users\moni\documents\codigoc\libcb\lib\misfunciones.h
+
+1464648556 source:c:\users\moni\documents\codigoc\libcb\lib\misfunciones.c
+	"misfunciones.h"
+	<stdio.h>
+
