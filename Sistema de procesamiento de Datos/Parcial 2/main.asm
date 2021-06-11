@@ -28,6 +28,7 @@ extrn regToAsciiHexa:proc
 extrn contarCaracter:proc
 extrn regToBin:proc
 
+extrn opcion1:proc
 extrn opcion2:proc
 extrn opcion3:proc
 extrn opcion4:proc
@@ -95,8 +96,8 @@ opcionDos:
   call opcion2
   jmp fin
 opcionUno:
-	mov bx, offset textoMain
-	int 80h
+  lea bx,textoMain
+  call opcion1
 fin:
   mov ax, 4c00h
   int 21h

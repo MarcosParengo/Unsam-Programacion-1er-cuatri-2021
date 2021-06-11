@@ -11,6 +11,9 @@
 	tiempoAlarma db "$$",24h
 	ingreseTiempo db "Ingrese en cuantos segundos desea la alarma (de 0 a 59)",0dh,0ah,24h
 	errorOpcion4 db "Cuando el tiempo final da mas de 59 deberia restarle 59 y listo pero a veces no funciona y no se por que",0dh,0ah,24h
+	cartelOp1 db "Cuanto desea sumarle al ascii para cifrarlo?"
+	cifradoOp1 db "$$",24h
+	caracteresValidos db "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwx1234567890"
 	textoHoraActual db "Son las ",24h
 	espacio db " ",24h
 	segundos db " segundos, ",24h
@@ -30,9 +33,12 @@ public asciiHexaToReg
 public regToAsciiHexa
 public contarCaracter
 public regToBin
+
+public opcion1
 public opcion2
 public opcion3
 public opcion4
+
 opcion4 proc
 	push ax
 	push bx
@@ -143,10 +149,6 @@ opcion3 proc
 	int 80h
 	lea bx,salto
 	int 80h
-
-	pop dx
-	pop bx
-  	pop cx
   	pop ax
 	ret
 opcion3 endp
@@ -191,8 +193,58 @@ finOpcion2:
   pop ax
   ret
 opcion2 endp
-
-
+;En bx llega el texto
+opcion1 proc
+  push ax
+  push cx
+  push dx
+  
+  push bx
+  lea bx,cartelOp1
+  int 80h
+  lea bx,cifradoOp1
+  mov dl,2
+  call lectura
+  xor dx,dx
+  lea bx, cifradoOp1
+  push bx
+  call asciiToReg
+  ;en dl esta la cantidad que se le debe sumar
+  mov si,0
+  pop bx
+  push bx
+inicioVueltaEncontrarCaracter:
+  xor ax,ax
+  cmp  byte ptr [bx],24h
+  je finOpcion1
+  mov al,caracteresValidos[si]
+  cmp [bx],al
+  je caracterEncontradoCifrado
+  inc si
+  jmp inicioVueltaEncontrarCaracter
+caracterEncontradoCifrado:
+  add si,dx
+  cmp si,60
+  jbe noMayor
+  sub si,60
+noMayor:
+  mov al,caracteresValidos[si]
+  mov [bx],al
+  mov si,0
+  inc bx
+  jmp inicioVueltaEncontrarCaracter
+finOpcion1:
+  lea bx,salto
+  int 80h
+  pop bx
+  int 80h
+  lea bx,salto
+  int 80h
+  pop dx
+  pop cx
+  pop ax
+  ret
+opcion1 endp
 
 ;Registro a binario, llega en cl el valor a convertir y en bx el offset de la variable en la que se lo guarda
 regToBin proc
