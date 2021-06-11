@@ -5,7 +5,8 @@
 
   nro1 db "$$$",24h
   nro2 db "$$$",24h
-  resultado db "$$$",24h
+  resultado db "$$$",0dh,0ah,24h
+  negativo db "-",24h
   simb db " ",24h
   ingrese db 0dh,0ah,"Ingrese un numero menor a 255",0dh,0ah,24h
   ingrese2 db  0dh,0ah,"Ingrese 1 para sumar, 2 para restar, 3 para multiplicar y 4 para dividir",0dh,0ah,24h
@@ -18,7 +19,6 @@ extrn asciiToReg:proc
 extrn regToAscii:proc
 extrn lectura:proc
 extrn printar:proc
-
 extrn calcular:proc
 main proc
 	mov ax, @data
@@ -74,18 +74,31 @@ noErrorMain1:
 	mov bl,dl
 	pop dx
 	mov al,dl
-	
+
+	mov si,0
 	call calcular;devuelve el resultado en cl
 	cmp si,255
 	jne noErrorCalc
+
 	mov bx, offset textoError
 	call printar
 	jmp fin
 noErrorCalc:
+	cmp cl, 0
+	jge regToAsciiNoNeg
+	neg cl
+	mov si,2
+	regToAsciiNoNeg:	
+	;en cl ya esta el resultado
 	mov bx, offset resultado
 	call regToAscii
 	mov bx, offset resultadoTxt
 	call printar
+	cmp si,2
+	jne noNegativoPrint
+	mov bx, offset negativo
+	call printar
+noNegativoPrint:
 	mov bx, offset resultado
 	call printar
 fin:

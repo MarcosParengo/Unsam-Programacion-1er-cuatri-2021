@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1623370114 source:c:\users\marco\documents\repos\unsam-programacion-1er-cuatri-2021\laboratorio de computacion ii\practica 11 - archivos de texto\archivos de texto con funciones\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

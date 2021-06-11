@@ -1,0 +1,1051 @@
+Transcripción
+
+desde aparatos diseñados para salvar el
+mundo
+a máquinas que expanden la mente con
+máquinas que empequeñece en el mundo la
+evolución de ordenadores centrales
+ratones y menús
+el ordenador
+ha revolucionado la manera en la que
+trabajamos jugamos viajamos y nos
+comunicamos afecta cada parte de
+nuestras vidas ya ha conseguido ayudar a
+ganar guerras resolver problemas
+aparentemente irresolubles y nos ha
+lanzado al espacio
+la era de los ordenadores no ha hecho
+más que empezar estamos todavía en
+ciudad de piedras a medida que vayamos
+avanzando en el siglo logra una
+distinción clara entre la inteligencia
+humana de la inteligencia de la máquina
+la mayor parte de la gente hoy en día
+sabe que es un ordenador personal e
+incluso algo sobre su manejo en esencia
+existen dispositivos de entrada como un
+ratón o un teclado el cerebro de la
+máquina es decir la cpu o unidad central
+de procesamiento y dispositivos de
+salida como el monitor o la impresora
+por dentro el ordenador realiza su magia
+haciendo millones de pequeños cálculos
+por segundo
+básicamente sus circuitos electrónicos
+solo tienen dos opciones pueden ser
+conectados y desconectados en código
+binario un uno representa encendido
+un 0 representa apagado por lo tanto un
+1 en binario también significa verdadero
+y 0 significa falso
+mediante estos valores obtenemos la
+lógica binaria lo que permite al
+ordenador computar
+el ordenador solamente conoce el código
+binario de unos y ceros y lo utiliza
+para hacer cálculos y transformar
+personas normales en autores animadores
+y navegantes de la red el ordenador crea
+su magia mediante la velocidad de la que
+puede calcular un pc medio realiza 100
+millones de cálculos por segundo pero
+eso no es nada comparado con algunas de
+las máquinas industriales actuales
+estos son los laboratorios nacionales de
+lawrence livermore hogar del ordenador
+más rápido del mundo
+el departamento de la iniciativa
+informática estratégica acelerada de la
+energía ski white
+para la creación de estas máquinas aquí
+tomamos la típica estación ibm que
+podrías comprar en cualquier sitio
+pusimos 8000 de estas juntas para crear
+un ordenador mucho más veloz que
+cualquier otro en el mercado
+la máquina skyway hace 12 trillones de
+operaciones matemáticas por segundo
+y para echar eso bajo la población de la
+tierra supera por poco los 6 mil
+millones así que cada hombre mujer el
+niño en la faz de la tierra tendría que
+sumar dos mil números en un segundo para
+estar al nivel de esa máquina
+como si fuera el guardián del silicio el
+esquí white está dedicado al servicio
+del país
+los laboratorios nacionales lawrence
+livermore son responsables de
+cerciorarse de la seguridad y la
+actuación de las armas nucleares de la
+nación
+ah
+en 1992 el presidente george bush
+prohibió las pruebas nucleares bajo
+tierra eso hace que sea muy difícil
+calcular el arsenal nuclear
+ahora los laboratorios han decidido
+emplear superordenadores para hacer las
+simulaciones y determinar la integridad
+de las armas que van cogiendo tiempo
+si se piensa en un arma nuclear y todos
+sus componentes se empieza a comprender
+qué difícil es el proceso tenemos que
+ser capaces de simular cada una de las
+partes la física tiene lugar dentro de
+ellas
+estos simulacros son tan complicados que
+incluso un ritmo de 12 trillones de
+cálculos por segundo llevaría semanas
+completar una prueba
+el ordenador también tiene el poder de
+modelar moléculas esto ayuda a los
+científicos a diseñar experimentos antes
+de ir al laboratorio y entender cómo
+podrán ser los resultados
+la manera más efectiva de obtener
+información del ordenador a la mente
+humana es mediante muestras visuales
+un enorme número de vídeos expositores
+de alta resolución convierte el infinito
+número de unos y ceros del ordenador en
+un increíble tapiz pixelado
+necesitamos ver el contexto sean capaces
+de entender cómo encaja todo y después
+utilizamos está simulación en una escala
+muy fina en un bloque un elemento para
+nuestras simulaciones más grandes que
+cubren mayor volumen de espacio un
+sistema mucho más grande sin estas
+paredes no seríamos capaces de entender
+este simulacro
+paradójicamente mientras la tecnología
+va haciéndose más pequeña los
+superordenadores como el white siguen
+ocupando todavía un gran espacio y una
+atención especial
+estamos en la habitación eléctrica que
+en realidad está al otro lado de la
+pared de la habitación del ordenador un
+ordenador de este tamaño necesita mucho
+material de apoyo el ordenador ahora
+requiere aproximadamente 13 megavatios
+eso es más o menos unas 1300 homes
+requiere manipuladores de aire de
+refrigeradores
+tres refrigeradores de 675 toneladas
+impiden que el white se sobrecaliente
+haciendo circular agua fría a través de
+tuberías bajo el suelo
+en la máquina representa el esfuerzo
+coordinado de cientos de brillantes
+cerebros pero con la máquina aquí
+podemos rastrear su origen hasta un
+hombre que no estaba demasiado
+preocupado por la seguridad nacional
+pero tenía un gran interés en el ganado
+charles bach fue un científico británico
+que inventó el salvar a nado para evitar
+que los trenes de vapor descarrilaran
+chocando contra bovinos desconcertados
+también se le considera por muchos el
+padre del ordenador
+fue un científico extraordinario quiero
+decir que fue fantástico se adelantó 100
+años a su tiempo no se puede decir de
+muchas personas pero sí se puede decir
+sobre bab es a comienzos del siglo 19
+concibió la idea de ordenadores
+mecánicos es decir ordenadores que iban
+a hacer más que calcular que iban a
+poder guardar información almacenar
+números y volver sobre ellos cuando lo
+necesitaran
+e iba a poder imprimir las respuestas
+que ofrecía bits y anses como científico
+babich confiaba plenamente en la
+precisión de tablas matemáticas
+logaritmos y tablas de gravedad computar
+esos cuadros es lo que la gente conoce
+por ordenadores
+desafortunadamente estos ordenadores
+cometían errores con frecuencia
+enfureciendo así a su inventor
+errar es humano pero para ver ser humano
+no era suficiente
+primero previó un complejo sistema de
+engranajes y ejes que trabajaban juntos
+para hacer cálculos
+después de 10 años de trabajo sin
+embargo tiró el proyecto a la basura
+solo lo completó parcialmente para
+diseñar un aparato incluso más
+sofisticado una máquina que poseyera los
+componentes básicos de los ordenadores
+modernos
+las tarjetas perforadoras le proveían
+las entradas un mecanismo llamado el
+molino hacía los cálculos y el almacén
+guardaba los nombres como memoria
+lo llamo el motor analítico
+el motor analítico hacía cálculos
+mecánicamente
+después de introducir los datos el
+mecanismo tenía que ser accionado por
+una manivela haciendo girar cientos de
+engranajes intrincados ejes y ruedas
+numeradas para calcular los resultados
+babatz anticipo que la máquina de 15
+pies de altura funcionaría a vapor por
+su tamaño pero babatz nunca construyó
+una máquina su proto ordenador se
+colapsó antes de que pudiera completarlo
+fue víctima de herramientas imprecisas y
+de la falta de fondos todo esto ocurrió
+cien años antes de que se volviera a
+concebir la idea de un aparato así
+alentado por una eclosión de población
+en américa el siguiente paso en la
+evolución del ordenador vino al final
+del siglo 19 cuando oleadas masivas de
+inmigrantes amenazaban con sobrecargar
+el censo americano de 1890 en 1887 la
+oficina del censo todavía llevaba la
+cuenta del recuento de 1880 a mano
+desesperado suplicaban por otra forma de
+tabular los resultados
+entonces fue cuando un anterior
+inspector del mid llamado Herman Hollerith
+e introdujo una serie de máquinas que
+harían que el recuento del censo fuera
+tan fácil como contar 1 2 y 3
+cada persona estaba representada por una
+tarjeta los individuos tenían que
+perforar las cajas relacionadas con su
+edad sexo raza y profesión
+los trabajadores del censo entonces
+introducían las tarjetas perforadas en
+las máquinas la tabulación se hacía con
+electricidad al utilizar clavijas
+eléctricas los resultados se registraban
+en una serie de diales como si fueran
+relojes otras máquinas separaban las
+tarjetas las máquinas dejo lérez
+aceleraban de forma vertiginosa el
+procesamiento de la información
+en solo seis semanas se había hecho el
+recuento del censo de 1890 de 62
+millones 622 mil 250 habitantes
+entonces holder es continuó
+comercializando ese invento se dio
+cuenta de que el censo era un gran
+cliente pero seamos realistas si sólo
+recibes un pedido una vez cada diez años
+entonces salió y consiguió hacer negocio
+entre los ferrocarriles por ejemplo y
+formó una compañía que finalmente se
+convirtió en la base para la ibm
+la invención dejo lérez fue un hito en
+el camino de lo mecánico a lo digital
+pero todavía faltarían 50 años y el
+poder destructivo de una guerra mundial
+para que arrancara el primer ordenador
+verdadero
+antes de los años 30 los aparatos
+mecánicos computacionales se utilizaban
+para seguirle la pista a la población
+pasajeros de tren y archivos de seguros
+de vida
+pero los primeros ordenadores digitales
+electrónicos se construyeron con un
+objetivo mucho más persuasivo en la
+mente ayudar a ganar una guerra mundial
+una de las máquinas más tempranas se
+propuso por los británicos para romper
+el código alemán conocido por enigma
+con ello empezaron a creer que se podía
+ganar la guerra
+una de las personas que trabajado para
+romper el código enigma fue alan turing
+su trabajo antes de la guerra ayudó a
+establecer la base teórica para los
+ordenadores que se construyeron en los
+cuarenta
+en el norte de londres en unas
+instalaciones secretas en plentzia park
+los británicos construyeron colosos un
+tipo de ordenador diseñado para romper
+el código enigma
+colosos comparaba secuencias de letras a
+un ritmo de 25 mil caracteres por
+segundo la máquina sólo podía realizar
+la tarea de unir letras pero lo hacía
+muy bien
+sus transmisiones descifradas alemanas
+se denominaron el ultra secreto el
+secreto mejor guardado de la guerra
+y principalmente el coloso se llevaba a
+cabo funciones logísticas de las letras
+de un alfabeto en una corriente de
+letras que venían de un mensaje de radio
+interceptado no los descifraba pero si
+podía que cuando una serie de
+combinaciones que en gran medida se
+asemeja a lo que hace un ordenador
+mientras el colosos rompía códigos
+alemanes al otro lado del atlántico los
+ingenieros trabajaban para construir
+otro aparato computacional una máquina
+que influiría directamente en el diseño
+de todos los ordenadores futuros
+américa era un centro neurálgico
+productor de instrumentos de guerra pero
+para 1943 había una escasez crítica de
+un componente sorprendente de la máquina
+de guerra tablas de disparos para piezas
+de artillería
+estas tablas permitían a los artilleros
+apuntar sus armas correctamente en gamas
+diferentes altitudes temperaturas y
+condiciones del viento los ordenadores
+humanos trabajaron frenéticamente para
+producir cálculos mecánicos para crear
+esas tablas pero lo pasaron mal
+intentando estar a la altura
+durante la segunda guerra mundial se
+producían muchas armas había que
+calcular muchas tablas de disparo era
+realmente un gran trabajo y estaba
+ralentizando la entrega de armas al
+frente
+para solucionar el problema y un núcleo
+y un físico de la universidad de
+pensilvania se propuso construir un
+ordenador gigante electrónico que podía
+calcular tablas de números en minutos no
+horas
+el ejército desesperado por un aparato
+que les ayudará a ganar la guerra de
+mala gana se centró en el coste
+propuesto de medio millón de dólares
+buckley y un brillante estudiante de
+ingeniería eléctrica press pere card
+empezaron a construir en jean el
+integrador numérico electrónico y
+ordenador
+mucho más grande que el colosos nunca se
+había concebido nada parecido a ella
+casi con 100 pies de largo y 30
+toneladas contenía 70.000 resistencias
+10.000 condensadores 6000 interruptores
+y 18.000 tubos de vacío delicados
+los tubos funcionaban como bombillas
+en una máquina que habían 18.000 tubos
+por lo menos uno tenía que cambiarse
+cada pocos minutos
+después de dos años de trabajo intenso
+el equipo completó el eniac
+tres meses después los japoneses se
+rindieron aunque no pudo acabarse a
+tiempo de ayudar a acabar la guerra
+eniac fue una máquina maravillosa podría
+realizar 5000 sumas 357 multiplicaciones
+y 38 divisiones cada segundo y lo
+interesante sobre eniac es que tenía una
+capacidad del propósito general podía
+reconfigurarse para solucionar otros
+problemas y nunca hubo ningún problema
+para encontrar trabajo para n a todos
+los servicios armados se exigían tiempo
+para poder usar también clientes
+industriales y universidades así que se
+le mantuvo ocupado hasta bien entrados
+los 50 x
+pero a en ya que la máquina más compleja
+de su tiempo todavía le faltaba muchas
+de las cualidades de un ordenador
+moderno su memoria era muy primitiva y
+sólo podía almacenar un máximo de veinte
+diez números decimales tenía que
+recrearse laboriosamente cada vez que se
+programaba
+y no podía tomar decisiones lógicas
+basándose en sus cálculos pero en
+jacques ya había demostrado que los
+ordenadores se podían construir
+justo antes del final de la segunda
+guerra mundial john von neumann un
+consejero de cri-cri en el proyecto
+eniac escribió un ensayo que iba a
+influir de forma definitiva en el
+siguiente paso del diseño de ordenadores
+von neumann poseía una memoria
+fotográfica y era uno de los científicos
+principales enrolados en el proyecto
+manhattan
+el artículo de von neumann delineaba la
+estructura de un ordenador moderno el
+diseño comprendía una unidad de
+procesamiento y una unidad de control
+memoria entrada y salida pero lo más
+importante en la evolución de los
+ordenadores tendría su capacidad de
+programación internamente en su memoria
+internamente contenía programas para
+darle al ordenador su potencia y
+versatilidad porque un programa interno
+puede modificar lo que hace basándose en
+los datos o los resultados de las
+computación es
+el trabajo de von neumann proponía una
+máquina que realmente poseyera una
+capacidad general de propósito
+en su trabajo describió los atributos
+del ordenador como tenía que organizarse
+de forma lógica esto es necesitaba tener
+un procesador central donde los cálculos
+se pudieran llevar a cabo necesitaba una
+memoria donde los datos de programación
+pudieran ser almacenados y necesitaba
+tener una unidad de salida y una unidad
+de entrada de algún tipo trazó el plan
+lógico el mapa para un ordenador y
+señaló la dirección que había que tomar
+para el futuro
+la idea para almacenar programas
+internamente era la última llave para
+desarrollar el verdadero ordenador con
+un propósito general pero si fue o no la
+idea de von neumann es algo que se ha
+debatido con vehemencia recientemente
+pecker y moclic que habían trabajado con
+von neumann dijeron que habían formulado
+programas internos como parte rutinaria
+de su trabajo al construir en ya
+sin embargo decker y moclín no fueron
+incluidos como autores en el artículo y
+se sintieron traicionados
+pero al darse cuenta de que el ordenador
+encontraría un lugar en el mundo de los
+negocios
+iker y moclín formaron su propia
+compañía
+empezaron a trabajar en una máquina que
+llamaron juni back ordenador universal
+automático
+a diferencia de sus predecesores y univa
+que era una máquina amable diseñada para
+solucionar problemas científicos o
+militares podría diseñarse para
+satisfacer varios propósitos el june y
+bach también constituía el primer
+ordenador en poder fabricarse en masa y
+venderse comercialmente
+la máquina podía ser programada para
+toda una serie de tareas de
+procesamiento de datos como nóminas
+inventarios y facturación
+unidades de cinta compactas y magnéticas
+almacenaban datos y los resultados se
+imprimían automáticamente
+todavía muy poca gente entendía qué
+grado de utilidad tendría un ordenador
+esa percepción cambió drásticamente en
+la noche electoral de 1952 cuando la cbs
+utilizó el universe para predecir el
+resultado de la carrera presidencial
+entre eisenhower y adelaide stevenson
+los sondeos decían que la carrera
+presidencial estaba muy justa el johnny
+vocal q lava de otra forma
+los ingenieros introdujeron los
+resultados de los precintos
+seleccionados del este antes de que
+cerraran los colegios electorales en el
+oeste los expertos pensaron que había
+sido una carrera muy apretada pero el
+universe predijo una victoria electoral
+arrolladora para irse en jaguar
+incluso la cbs no creyó lo que decía el
+ordenador y dudó en dar a conocer sus
+resultados pero al final el universe de
+nya razón
+el poder y la utilidad del ordenador
+habían sido probados
+después del éxito de liu ni varias
+empresas empezaron a ver un futuro en el
+desarrollo de los ordenadores
+y dm empezó a darse cuenta de que los
+ordenadores serían cada vez más pequeños
+más baratos y más fáciles de manejar y
+que habría un lugar en los negocios para
+estas máquinas que desde luego a la
+larga sustituirían a la tecnología de
+las tarjetas perforadoras
+para comienzos de la década de los 60
+ibm dominaba el gran mercado de los
+ordenadores los negocios empezaban a
+depender de los ordenadores las máquinas
+se iban haciendo cada vez más pequeñas
+gracias al cambio de tecnología detuvo a
+los transistores a la tecnología de los
+transistores
+y la carrera hacia la luna iba a hacer
+que los ordenadores fueran aún más
+pequeños
+en 1961 norteamérica y va a la zaga de
+rusia en la carrera por el espacio en el
+incesante intento de ganar a los rusos
+el objetivo de la nasa era que el hombre
+llegara a la luna
+no iba a resultar fácil cuando comencé a
+trabajar en la nasa de 1962 el primer
+día me dieron una regla de cálculo de 20
+años nuestros cálculos se hacían
+principalmente en calculadora de
+bolsillo teníamos a un número de
+personas a las que asigna vamos nuestras
+hojas de datos y su trabajo consistía en
+trabajar con sus pequeños cálculos
+pero los astronautas no podían confiar
+en reglas o calculadoras de bolsillo en
+el espacio
+la misión requería un ordenador guía
+sofisticado
+a principios de la década de los 60 sin
+embargo una máquina tan potente como la
+que necesitaban ocupaba toda una
+habitación
+la nasa intentó reducir el tamaño del
+problema afortunadamente el primer gran
+avance en el camino a la miniaturización
+ya había tenido lugar en 1947 tres
+científicos en los laboratorios bell
+inventaron el transistor un transistor
+ejecutaba la misma función de encendido
+y apagado que los tubos de vacío
+pero era mucho más pequeño y más fiable
+los transistores se hacían con silicio y
+cable diminuto el silicio es un
+semiconductor si se aplica un voltaje
+pequeño se comportará como conductor
+permitiendo que pase una corriente entre
+los cables
+si no hay voltaje actuara más como un
+aislante bloqueando la corriente esta
+característica del silicio es lo que
+permitió los transistores hablar el
+lenguaje binario de los ordenadores
+y harían del silicio la base para la
+industria de estos
+el siguiente paso en la miniaturización
+tuvo lugar en 1959 cuando robert noyce y
+jack kirby ingenieros para fabricantes
+rivales de transistores llegaron a los
+mismos avances de forma independiente y
+que conducían a la misma idea
+revolucionaria
+toda una red de componentes electrónicos
+transistores y todo incorporado en un
+solo chip de silicio
+y la gran innovación en la electrónica
+se llamó el circuito integrado
+en 1969 5000 circuitos integrados
+componían el corazón de cada uno de dos
+ordenadores idénticos
+1 en la órbita lunar y el otro en la
+tierra
+para su tamaño estos eran los
+ordenadores más potentes de la tierra
+mientras neil armstrong daba un pequeño
+paseo en el polvo lunar te dejo un
+ingeniero con la compañía de chips intel
+estaba dando un gran paso en el proceso
+hacia la miniaturización estaba
+desarrollando una idea que pondría todo
+el ordenador en un chip de silicio el
+microprocesador igual era la invención
+no solo de circuitos integrados sino de
+un tipo particular de circuito integrado
+el microprocesador es que hace posibles
+los ordenadores personales de hoy en día
+bajo se habían encargado diseñar 12
+circuitos integrados por separado para
+fabricar una calculadora japonesa
+sugirió colocar toda la unidad de
+proceso en un chip y programarlo como un
+ordenador
+intel desarrolló la idea y para 1970
+tenían un modelo de microprocesador
+los ordenadores estaban en el camino
+para hacerse más pequeños sin embargo
+todavía estaban muy lejos de ser fáciles
+de manejar
+uno de los primeros intentos de
+simplificar las operaciones del
+ordenador fue encabezado por dakin
+gelbard
+el científico concibió una manera
+sencilla de manejo e incluso mostró un
+prototipo en 1968 en la conferencia de
+otoño de ordenadores de san francisco
+the water que fallen tardía
+el feedback
+y soldando un teclado y un aparato para
+señalar que llamo ratón engelbart
+trabajaba con un ordenador a 30 millas
+de distancia unido por microondas y
+demostró que se podía procesar palabras
+en un hipertexto
+muchos en aquella audiencia se fueron a
+casa realmente inspirados pero sólo un
+grupo iba a completar la visión de in
+global ese grupo estaba a muy poca
+distancia en xerox parc
+xerox creyó que el futuro podía estar en
+los ordenadores y comenzó a construir
+una máquina de fácil manejo
+en 1973 xerox introdujo el alto que
+incorporaba muchas de las innovaciones
+en ordenadores personales que hoy en día
+damos por supuestas el alto tenía un
+ratón una interfaz gráfica estaba
+construido de forma interconectada e
+imprimía en una impresora láser debería
+haber revolucionado la industria pero a
+18.000 dólares cada máquina el alto no
+estaba diseñado para particulares
+los ordenadores todavía eran máquinas
+elite propiedad del gobierno o de
+grandes empresas y universidades en el
+pasado los grandes ordenadores centrales
+procesaban nóminas guardaban el rastro
+de archivos seguían la pista y hacían
+cálculos científicos si una facultad
+tenía la suficiente suerte como para
+acceder a un ordenador los estudiantes y
+los profesores compartían tiempo en
+ellos pero el mercado del chip estaba
+creciendo en la velocidad de
+procesamiento crecía y los precios
+bajaban
+la revolución estaba al alcance de la
+mano y la carga no sería liderada por
+una gran empresa sino por un grupo de
+aficionados e ingenieros librepensadores
+los de aquellos revolucionarios fueron
+steve jobs y steven wozniak
+a mediados de los 70 empezaron a
+fabricar un ordenador pequeño en un
+garaje de palo alto
+lo llamaron el apple one
+steve jobs era un estudiante de
+universidad que había abandonado los
+estudios pero era diferente era muy
+inteligente muy avispado también era
+extremadamente ambicioso pero quizás más
+importante que eso conocí a otro estévez
+steven wozniak que era un brillante
+ingeniero de hardware
+al ir abaratándose los chips algunos
+nada caros empezaron a aparecer kits de
+ordenadores de automontaje uno de estos
+primeros kits apareció en la cubierta de
+popular electronics en 1975 se llamaba
+el alter el alter se planteó como el
+primer kit de mini ordenador para
+rivalizar con modelos comerciales muchas
+personas se interesaron en el a 400
+dólares cada kit esos primeros
+ordenadores anteriores a los primeros
+apple eran en realidad para técnicos e
+ingenieros informáticos que tenían
+conocimiento de cómo conectar cables y
+conectar otros dispositivos y hacerlos
+trabajar así que pensé compraré unos
+cuantos chips un microprocesador y
+diseñar mi propio ordenador no fue que
+quisiera burlarme del mundo era solo que
+quería hacer de este ordenador algo más
+personal que los interruptores que
+tienen posiciones arriba y abajo para
+introducir extraños números binarios
+steve jobs vendió su volkswagen y steven
+wozniak vendió su calculadora hp para
+financiar su empresa
+en 1977 introdujeron el apple show un
+ordenador atractivo independiente y un
+teclado con la adición de un monitor y
+un drive para un disquete el aspecto de
+un ordenador personal empezaba a cobrar
+forma
+el apple show se estandarizó con 4 kb de
+memoria y a un precio base de 1200
+dólares era mucho más barato que las
+máquinas industriales anteriores
+el apple you ayudó a convertir al pce en
+un aparato de fácil manejo el comprador
+no tenía que pasar tiempo soldando las
+partes meticulosamente la persona podía
+inmediatamente empezar a programar el
+ordenador o comprar software
+desarrollado por florecientes compañías
+de software
+con la esperanza de quitarle una parte
+de la cuota de mercado en 1981 ibm
+introdujo su versión de un aparato
+ordenador personal conocido simplemente
+por peces las ventas continuaron
+creciendo a principios de los 80 pero
+antes de que el ordenador personal
+inundar a todo el planeta
+la máquina todavía había de
+simplificarse para el usuario algo que
+cualquiera pudiera manejar
+los primeros ordenadores apple igual que
+los tempranos ordenadores personales no
+tenían interfaces gráficas no tenían
+ratones tenían lo que se conoce como una
+interfaz con línea de comandos esto es 1
+tecleaba las instrucciones en el
+ordenador y las instrucciones aparecían
+como texto en la pantalla
+inspirados por el trabajo llevado a cabo
+en xerox parc apple tomó muchas de las
+mejores características de los
+ordenadores de palo alto como la
+interfaz gráfica y el ratón los mejoró y
+fabricó una máquina al alcance del
+bolsillo
+apple introdujo el ordenador macintosh
+en 1984
+lo que hizo que el macintosh fuera un
+ordenador fácil de usar
+era su sistema operativo y sus
+aplicaciones conocido como software
+el software es la lista de instrucciones
+que le dicen al ordenador lo que tiene
+que hacer si tiene que comportarse como
+un tratamiento de textos o como una hoja
+de cálculo
+cada vez más el software dominaba los
+avances que se hacían en la informática
+y bill gates el joven presidente de una
+compañía de software llamada microsoft
+estaba allí para capitalizarse en el
+mercado creciente
+finalmente se convertiría en un gran
+nombre conocido apostando por su visión
+en un vasto imperio de software y
+convirtiéndose en el hombre más rico del
+mundo
+de vuelta a 1981 ibm decidió utilizar el
+sistema operativo de microsoft conocido
+como pc 2 mientras iban surgiendo los
+primeros clones de ibm en el mercado
+microsoft era libre para vender el
+sistema ms 2 para también rivalizar con
+las compañías de ordenadores intentó
+aferrarse al software y el hardware y
+tenerlos en dos compañías diferentes era
+genial para microsoft todo el mundo
+podía venir y construir un ordenador
+intel y microsoft tenía el sistema
+operativo así que lo que pasó fue que
+entramos en una tienda en aquellos días
+el marca atrás marca todos los
+ordenadores ya eran compatibles y de
+pronto veías un macintosh
+la imitación es la forma más sincera del
+halago pero apple no se sintió halagada
+cuando microsoft introdujo su plataforma
+windows para pc windows imitaba algunos
+dicen que robó la interfaz gráfica
+descargó menús y todo lo que apple había
+popularizado existe la idea de que bill
+gates vino a apple y copio el aspecto
+gráfico y el uso que después condujeron
+a windows
+porque cualquiera una vez visto windows
+hay que verlo durante mucho tiempo bueno
+ya sabes este es el futuro y una vez
+cruzas la puerta ya no hay vuelta atrás
+la verdadera historia es que nosotros no
+necesitábamos software y great tenía una
+empresa microsoft que escribía software
+así que tuvimos que enseñarle un
+ordenador y darle copias para que lo
+escribiera no había otra manera y no lo
+llamaría a robar exactamente es como ser
+un oportunista y buscar en los lugares
+apropiados y negociar la manera como lo
+quieres
+incluso cuando otro lo inventó primero
+es difícil llamarlo a robar
+las ventas se dispararon en los 80 de
+500.000 máquinas al año en 1981 a 7
+millones para el final de la década
+máquinas fáciles de manejar y software
+más sofisticado que nunca escrito la
+imaginación general
+pero la revolución estaba muy lejos de
+haber acción internet estaba destinado a
+alterar enormemente la vida de las
+personas
+pronto todo el planeta estaría atrapado
+en una red de la que no se puede escapar
+lo siguiente ver como tu casa queda
+conectada la televisión la tostadora la
+cafetera y el microondas
+en la década de los 90 las ventas de
+ordenadores se dispararon llevadas por
+la red
+yo diría que es más importante que los
+ordenadores personales aunque necesitas
+un ordenador personal para utilizar
+internet es como que es más importante
+las calles o los coches
+la web nos conecta pero aún no de forma
+tan restrictiva como antes
+la tecnología sin cable nos hace móviles
+ya hay asistentes digitales y
+aplicaciones de la web que siguen
+cambiando el aspecto y el papel de los
+ordenadores
+los microprocesadores están en todas
+partes la línea divisoria entre
+ordenadores teléfonos móviles y otros
+productos electrónicos es muy difusa
+es el continuo empequeñecimiento de la
+tecnología del chip lo que está
+expoliando la evolución de lo que tengo
+aquí es una unidad de fabricación de
+tecnología de silicio y este ejemplo
+concreto es una lámina de
+microprocesador de 21-3 eso es más o
+menos de 8 bits de diámetro
+y tiene capacidad para 200
+microprocesadores 21 3
+cada microprocesador puede contener
+tantos como 100 millones de diminutos
+transistores
+y los chips se fabrican mediante un
+proceso llamado fotolitografía los
+fabricantes de chips empiezan por
+ponerle a una lámina de silicio una capa
+de un material fotosensible los
+científicos entonces hacen una plantilla
+del diseño que quieren mediante el
+grabado en un metal fino con un rayo de
+electrón los rayos ultravioleta brillan
+a través de la plantilla y bajo el chip
+fotosensible causando una reacción
+química y creando el sistema de
+circuitos un chip se fabrica colocando
+capa tras capa estos chips que son
+básicamente micro ordenadores están
+encontrando su lugar en aparatos
+inteligentes hay discretos ordenadores
+escondidos en los aparatos del día a día
+y hablan entre ellos vía web y mediante
+otras tecnologías sin cable resulta que
+todos estos aparatos todas estas cosas
+que están en casa y realmente tenemos
+unos 100 microprocesadores diferentes se
+conectan a internet todas se pueden
+conectar a una red en casa y permiten a
+las personas
+conectarse a todos los recursos que
+existen en internet
+pero hablar a tus aplicaciones por
+teléfono no es una idea nueva
+sí
+probablemente llama o manda un mensaje
+hoy puede que no veamos la necesidad de
+llamar a nuestros hornos pero no estaría
+bien que nuestro frigorífico hiciera la
+compra vamos a ver qué tenemos para
+cenar esta noche
+traigo una lista de la compra estos son
+productos que ya sé que necesito
+productos que he consumido durante la
+semana y vamos a ver qué podríamos
+necesitar así que iremos al armario a
+ver qué es lo que tenemos allí
+tengo la mayoría de las cosas pero estos
+dos ingredientes quiero añadirlos
+familista de la compra
+así que hago clic aquí y se añadirán a
+mi lista de la compra así que ahora lo
+que puedo hacer es mi lista de la
+compra y o bien la descargo a un
+teléfono con base web y sigo clic la
+lista de tracking puedo hacer también
+que vaya a un pda o lo que puedo hacer
+es mandarlo a sting line puntocom y
+hacer que me lo pidan y me entrega la
+comida a mi casa desde aquí
+o sea que está viendo todas tus
+aplicaciones domésticas desde tu coche a
+tu mejor equipo de televisión y
+videojuegos a tus electrodomésticos
+lavadoras secadoras y frigoríficos todo
+conectado para que desde un browser se
+pueda operar la casa automatizado
+westinghouse teléfono email youtube
+google
+o con el audio windows
+aprieta los dientes y ven a los animales
+si estoy fuera de casa viene alguien y
+toca la puerta con esta conectaba a
+alertar a mi teléfono entonces estoy
+fuera y desde mi teléfono puedo hacer
+varias cosas puedo llamar a mi casa
+hablar con la persona puedo descargar la
+imagen de quienes puedo ver si es uno de
+mis hijos que se ha olvidado la llave
+puedo ir más allá con mi teléfono porque
+puedo controlar la puerta y dejarles
+pasar
+a continuación ordenadores del futuro
+que disparan la mente dentro de diez
+años los ordenadores no serán objetos
+que trasladamos de un sitio a otro están
+en nuestras gafas lanzando imágenes
+directamente a nuestra retina
+siguiendo una tendencia antigua en el
+mundo de los ordenadores las cosas se
+están haciendo más pequeñas mucho más
+pequeñas
+hewlett packard está trabajando en un
+ordenador molecular el doctor es tan
+will jones planea utilizar moléculas en
+lugar de unos y ceros eléctricos para
+hacer funcionar un ordenador por
+supuesto que un interruptor es algo que
+puedes encender y apagar así que si
+piensas en una pared de interruptores la
+gente habla del mecanismo de apretar un
+botón que se llama a flick flock de
+conmutación la manera en que las
+moléculas se modifican es simplemente
+mediante el cambio de forma cuando
+tienen una forma están encendidas cuando
+tienen otra forma estaría apagadas
+una corriente eléctrica podría apretar
+el interruptor mecánico convirtiéndolo
+en el mecanismo fundamental de la
+informática digital pero cómo se conecta
+a todo
+y trabajamos duramente en lo que se
+conoce en la comunidad científica como
+kits para montar uno mismo
+en otras palabras sabíamos que sería
+demasiado caro y muy muy difícil de
+construir el cables diminutos del tamaño
+de moléculas usando las técnicas
+estándar de la litografía y el grabado
+el doctor williams y sus asociados
+desarrollaron cables moleculares
+paralelos cada uno de dos átomos de lato
+y ocho átomos de ancho
+resulta que no planificaron y redactar
+estos cables no les dijimos dónde tenían
+que ir pero nunca son esencialmente
+depositamos una pequeña cantidad de
+iridio en una superficie de silicio lo
+calentamos y se produjo una reacción
+química entre los dos materiales y el
+resultado de la reacción química fue una
+serie de cables que ven detrás de mí
+el doctor williams previó construir
+ordenadores moleculares mediante la
+retención de moléculas individuales
+entre dos juegos de cables con este tipo
+de memoria molecular podríamos construir
+tanta memoria en cualquier cosa del
+tamaño de una unidad
+podríamos almacenar fácilmente toda la
+biblioteca del congreso de en ellas
+otras investigaciones se están
+trabajando en futuros ordenadores que
+puede que utilicen adn o incluso
+partículas de cuantos
+con el almacenamiento masivo y el poder
+verdadero de la informática la siguiente
+generación puede que sean ordenadores
+modelados según el cerebro humano con la
+inteligencia artificial en la ciencia y
+en el arte de fabricar ordenadores hace
+cosas que nosotros consideramos que
+requieren la inteligencia humana estamos
+desarrollando sistemas que pueden ser
+parejos o incluso superar a la mente
+humana dentro de nuestros dominios si se
+trata de jugar al ajedrez diagnosticar
+una enfermedad guiar misiles crucero a
+través de terrenos tenemos un sistema
+que puede operar al nivel humano dentro
+del marco de estas tareas definidas lo
+que no tenemos todavía sistemas que
+puedan entender el lenguaje humano con
+la flexibilidad de los humanos eso
+llegará
+alan turing fue un arquitecto
+informático temprano que trabajó para
+desmontar el código enigma durante la
+segunda guerra mundial en 1950 previo un
+tiempo en el que los ordenadores podrían
+ser capaces de pensar
+cuando el superordenador deep blue de
+ibm ganó al campeón del mundo de ajedrez
+gary kasparov algunos perdieron el
+respeto al fuego
+pero otros reconocieron que esto era un
+signo de que las máquinas inteligentes
+llegarían
+la electrónica molecular podría incluso
+borrar la línea entre el hombre y la
+máquina
+tendremos ordenadores muy pequeños y muy
+potentes que podrán viajar a través de
+nuestro sistema venoso y tendrán el
+tamaño de las células de la sangre y se
+comunicarán sin cable con nuestras
+neuronas así que seremos capaces de
+agrandar nuestra capacidad de pensar
+velocidad de pensamiento aumentar la
+memoria humana e incrementar nuestras
+habilidades cognitivas y modelos de
+reconocimiento mediante la combinatoria
+de nuestra inteligencia biológica con
+estas nuevas formas de inteligencia no
+biológica los ordenadores capaces de
+pensamiento cognitivo alegran a unos y
+atemorizan a otros
+lo veo como algo derivado de la
+inteligencia humana en muchos casos
+serán copias de la inteligencia humana y
+encarnarán nuestros valores
+quizá por eso estamos preocupados porque
+sabemos que la naturaleza humana en sí
+misma es igual tenemos una parte muy
+creativa y también una muy destructiva y
+la tecnología está multiplicando eso
+la tecnología es un arma de doble filo
+capaz de producir tanta destrucción
+masiva como abundancia sin precedentes
+pero mirando al pasado puede que la
+sociedad sepa cómo dirigir el ordenador
+del futuro
+y el poder eficaz de los ordenadores se
+ha incrementado por un factor de 100
+millones en tan solo 50 años tan
+sorprendente como esto en nuestros
+estudios en física fundamental nos dicen
+que debería ser posible aumentar aún más
+el poder eficaz de los ordenadores por
+otro factor de un billón más de lo que
+son hoy lo que eso me dice es que la
+edad del ordenador no ha comenzado a un
+año
