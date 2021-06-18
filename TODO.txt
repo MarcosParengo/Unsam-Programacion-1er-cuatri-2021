@@ -6,11 +6,17 @@ DONE 	https://www.youtube.com/watch?v=HCn1ornz87c&ab_channel=JulianaOsorioMorale
 
 DONE 	https://www.youtube.com/watch?v=uWwC_TCyEmY&ab_channel=JulianaOsorioMorales---->Clase 27/05
 
-TODO 	https://drive.google.com/file/d/1xM_uJeiG9Ts6wslV1CvVYWkTb0t6dc1M/view---->Clase 1/6 
+DONE	https://drive.google.com/file/d/1xM_uJeiG9Ts6wslV1CvVYWkTb0t6dc1M/view ---->Clase 1/6 
 
-TODO    CLASE 8/6
+TODO 	https://www.youtube.com/watch?v=_Y7i5fnq7Ps&ab_channel=JulianaOsorioMorales --->CLASE 3/6
+
+TODO    https://drive.google.com/file/d/1Fn2rTxVMOqSyGdyD4GAiZfT9DbKuTJFW/view?usp=sharing --->CLASE 8/6
 
 TODO 	https://youtu.be/_Y7i5fnq7Ps---->Clase 10/6
+
+TODO	 ---> CLASE 15/06
+
+TODO	 ---> CLASE 17/06
 
 ............................................................................................................................
 				   Laboratorio de computacion

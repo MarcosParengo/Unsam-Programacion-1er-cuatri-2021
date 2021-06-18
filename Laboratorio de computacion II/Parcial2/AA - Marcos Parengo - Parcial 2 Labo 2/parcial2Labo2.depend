@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1623706097 source:c:\users\marco\documents\repos\unsam-programacion-1er-cuatri-2021\laboratorio de computacion ii\parcial2\parcial2labo2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1623713480 source:c:\users\marco\documents\repos\unsam-programacion-1er-cuatri-2021\laboratorio de computacion ii\parcial2\aa - marcos parengo - parcial 2 labo 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
