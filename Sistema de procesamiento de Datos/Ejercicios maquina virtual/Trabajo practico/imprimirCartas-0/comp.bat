@@ -6,3 +6,4 @@ tasm main.asm
 tasm lib.asm
 tlink main.obj lib.obj
 main.exe
+limpiar.bat
