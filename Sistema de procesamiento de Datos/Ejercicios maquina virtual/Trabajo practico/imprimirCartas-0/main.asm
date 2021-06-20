@@ -14,6 +14,7 @@
   error db 0ah,0dh,"Las cartas seleccionadas no son iguales, vuelva a intentarlo",0ah,0dh,24h
   salto db 0ah,0dh,24h
   correcto db "Las cartas seleccionadas son iguales",0ah,0dh,24h
+  todasCartas db "Felicitaciones, encontraste todos los pares",0ah,0dh,24h
 
   ;0bfh esquina derecha arriba
   ;0d9h esquina derecha abajo
@@ -130,13 +131,22 @@ seleccioneCarta2:
   sub bl,31h
   mov dadasVuelta[bx],15
 
-
+saltoInicio:
   jmp inicio
 sigue:
   lea bx,correcto
   int 80h
-  jmp inicio
+  mov cl,8
+comprobacionTermino:
+  xor bx,bx
+  mov byte ptr bl,cl
+  cmp dadasVuelta[bx],15
+  je saltoInicio
+  loop comprobacionTermino  
 
+
+  lea bx,todasCartas
+  int 80h
 fin:
   mov ax, 4c00h
   int 21h
